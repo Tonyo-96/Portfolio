@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="html2pdf.bundle.min.js"></script>
+    <title>Responsive CV using Html & CSS</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left_side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="profkep_edited.jpg">
+                </div>
+                <h2>Langermann Tamás<br><span>WebDesigner</span></h2>
+                <button class="btn" onclick="PDF();">Download PDF</button>
+            </div>
+
+            <div class="contactInfo">
+                <h3 class="title">Elérhetőségem</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">+36 30 999 5446</span>
+                    </li>
+
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">Langermann.16@gmail.com</span>
+                    </li>
+
+                    <li>
+                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">www.mywebsite.hu</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-github" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">www.github.com</span>
+                    </li>
+
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">Angol, Japán, Német</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="contactInfo education">
+                <h3 class="title">Tanulmányok</h3>
+                <ul>
+                    <li>
+                        <h5>2004 - 2011</h5>
+                        <h4>Álltalános Iskola</h4>
+                        <h4>Andretti Károly álltalános és Művészeti Iskola</h4>
+                    </li>
+                    <li>
+                        <h5>2011 - 2015</h5>
+                        <h4>Központi Fűtés És GázhálozatRendszer Szerelés</h4>
+                        <h4>Kós Károly Szakiskola</h4>
+                    </li>
+                    <li>
+                        <h5>2015 - 2017</h5>
+                        <h4>Érettségi</h4>
+                        <h4>Budakalászi Gimnázium</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="contactInfo language">
+                <h3 class="title">Nyelv Ismeret</h3>
+                <ul>
+                    <li>
+                        <span class="text">Angol</span>
+                        <span class="percent">
+                            <div style="width: 80%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Japán</span>
+                        <span class="percent">
+                            <div style="width: 50%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Német</span>
+                        <span class="percent">
+                            <div style="width: 20%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+        <div class="right_side">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>Tisztelt Hölgyem/Uram! <br>Langermann Tamás vagyok, 25 éves.<br><br>
+                </p>
+            </div>
+            <div class="about">
+                <h2 class="title2">Experience</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2015 - 2019</h5>
+                        <h5>DM KFT</h5>
+                    </div>
+                    <div class="text">
+                        <h4>TargoncaVezető</h4>
+                        <p>2015 Nyarán az Szakvizsga után kezdtem a DM KFT-nél mint raktáros, előszőr árucimkézőként
+                            kezdtem majd fél évvel később Kommisiozó-nak léptettek elő.<br><br>
+                            Főbb feladatok:<br>Tételes és pontos áru összekészítés<br>Raklapok nyomon követése<br>Selejt
+                            kezelése<br>Leltározás<br><br>Göngyöleg Transzport Főbb feladatok:<br> Visszaérkező
+                            raklapok, ládák
+                            megfelelő helyre történő mozgatása<br> Raktárban keletkezett hulladék kezelése<br><br>Magas
+                            emelésű
+                            targoncás<br>Főbb feladatok: <br>Beérkező raklapok megfelelő helyre való
+                            betárolása<br>Komissiózó
+                            helyre való betárolása<br><br>Szakmai siker: Az itt eltöltött négy év alatt, három különböző
+                            munkaterületre voltlehetőségem betekinteni, a targoncára való jogosítvány megszerzésében a
+                            cég támogatott.<br> Majd 2019 Szeptemberében felmondtam a szerződést
+                            mivel a képességeimet nem tudtam már kamatoztatni és nem tudtam feljebb lépni a ranglétrán.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2020 - Napjainkig</h5>
+                        <h5>BioFilter Zrt.</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Raktárvezető Helyettes</h4>
+                        <p>2020. Januárban kezdtem jelenleg is dolgozom 2 éves tapasztalattal.<br>fő feladataim:<br>
+                            Adminisztratív feladatok ellátása<br> Napi szintű készlet ellenőrzés <br>Raktárba beérkező
+                            áruk
+                            ellenőrzése írásos átvétel.<br> Készlet mennyiség figyelése, rendelések
+                            leadása.<br>Raktárban
+                            való
+                            alkalmazottak koordinálása, figyelése.<br> szállítólevél készítése, nyilvántartások
+                            vezetése.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2022 - 2023</h5>
+                        <h5>WebDesigner - Vállalkozás</h5>
+                    </div>
+                    <div class="text">
+                        <h4>UX/WebDesigner</h4>
+                        <p>2022 - 2023 Terveimben szerepel komolyabb belemelyedés a WebDesigner kedésbe tanfolyamokra
+                            eljárni, szorgalmasan tanulni és gyakorolni, Portfoliokat készíteni hogy eltudjak
+                            helyezkedni
+                            más cégeknél illetve sakját vállalkozásba fogni mint KATÁ-s</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" about skills">
+                <h2 class="title2">Szakértő Képességeim</h2>
+                <div class="box">
+                    <h4>Html</h4>
+                    <div class="percent">
+                        <div style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Javascript</h4>
+                    <div class="percent">
+                        <div style="width: 40%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Photoshop</h4>
+                    <div class="percent">
+                        <div style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Illustrator</h4>
+                    <div class="percent">
+                        <div style="width: 20%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Adobe XD</h4>
+                    <div class="percent">
+                        <div style="width: 55%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" about interest">
+                <h2 class="title2">Érdeklődés</h2>
+                <ul>
+                    <li><i class="fa fa-gamepad" aria-hidden="true"></i>
+                        VideóJáték</li>
+                    <li><i class="fa fa-microphone" aria-hidden="true"></i>
+                        Zene</li>
+                    <li><i class="fa fa-book" aria-hidden="true"></i>
+                        Olvasás</li>
+                    <li><i class="fa fa-cutlery" aria-hidden="true"></i>
+                        Főzés</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+
+        function PDF() {
+            const e = document.querySelector(".container");
+
+            e.style.maxwidth = "600px";
+
+            const opt = {
+                filename: 'resume.pdf',
+                image:
+                {
+                    type: "jpg",
+                    quality: 0.99
+                },
+                margin: 0,
+                jsPDF: {
+                    unit: "pt",
+                    format: "letter",
+                    orientation: "portrait"
+                },
+                pagebreak: {
+                    mode: ["avoid-all", "css", "legacy"]
+                }
+            };
+            html2pdf().set(opt).from(e).save();
+
+            setTimeout(() => { e.style.maxwith = "1400px"; }, 2000)
+        }
+    </script>
+</body>
+
+</html>
